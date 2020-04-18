@@ -38,15 +38,15 @@ export default (props) => (
     <div style={{ margin: `1em 0 auto auto`, textAlign: 'center', paddingBottom: '1em' }}>
         {props.siteConfig.aphorismsOpen && <Aphorisms data={props.allAphorisms} />}
         <Typography variant="subtitle1">
-            Build with <ULink href="https://www.gatsbyjs.org" text="gatsby" />,
-        <ULink href="https://reactjs.org" text="react" />,
+            Build with <ULink href="https://www.gatsbyjs.org" text="gatsby" />, @{' '}
+        <ULink href="https://reactjs.org" text="react" />, @{' '}
         <ULink href="https://material-ui.com/"
                 text="material-ui" /> and <LoveIcon
                 color='primary'
                 style={{ fontSize: '0.9em' }} />
 
             <span style={{ display: 'block' }}>
-                Copyright 2019 <CopyrightIcon style={{ fontSize: '0.9em' }} /> <ULink
+                Copyright 2020 <CopyrightIcon style={{ fontSize: '0.9em' }} /> <ULink
                     href={props.siteConfig.copyrightUrl} text={props.siteConfig.copyrightName} /> Powered by <ULink href="https://github.com/mayneyao/gine-blog" text="gine-blog" />
             </span>
         </Typography>

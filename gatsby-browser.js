@@ -11,8 +11,8 @@
 
 export const onServiceWorkerUpdateFound = () => {
     const answer = window.confirm(
-        `好久不见，站点已经更新了。` +
-        `重新加载，展示新页面？`
+        `好久不見，網站已經更新了。` +
+        `重新整理，開啟新的頁面？`
     )
 
     if (answer === true) {

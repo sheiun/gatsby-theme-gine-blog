@@ -36,23 +36,23 @@ function TextButtons (props) {
                     <Button className={classes.button} disabled
                             color="primary"
                     >
-                        上一页
+                        上一頁
                     </Button> :
                     <MyLink to={`page/${currentPage - 1}`}>
                         <Button className={classes.button}
                                 color="primary">
-                            上一页
+                            上一頁
                         </Button>
                     </MyLink>
             }
             {
                 currentPage === pageCount ?
                     <Button className={classes.button} color="primary" disabled>
-                        下一页
+                        下一頁
                     </Button> :
                     <MyLink to={`page/${currentPage + 1}`}>
                         <Button className={classes.button} color="primary">
-                            下一页
+                            下一頁
                         </Button>
                     </MyLink>
             }

@@ -40,7 +40,7 @@ class Moment extends React.Component {
         let l = new URL(link)
         plink = l.origin
       } catch (error) {
-        console.log("错误的链接")
+        console.log("錯誤的連結")
       }
     }
     return (

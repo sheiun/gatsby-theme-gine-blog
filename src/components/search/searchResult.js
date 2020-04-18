@@ -115,7 +115,7 @@ function SimpleList(props) {
                         })
                     }
                 </List> :
-                    <span style={{ color: 'gray' }}>搜不到啊😂</span>
+                    <span style={{ color: 'gray' }}>找不到啊😂</span>
             }
 
         </div>

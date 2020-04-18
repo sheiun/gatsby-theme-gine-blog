@@ -151,7 +151,7 @@ class FormDialog extends React.Component {
                             margin="dense"
                             id="chromecantguess"
                             onChange={this.onSearchChange}
-                            placeholder="command+p 打开搜索栏"
+                            placeholder="command+p 打開搜尋列"
                             fullWidth
                             InputProps={{
                                 startAdornment: (

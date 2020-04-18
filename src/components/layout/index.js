@@ -115,7 +115,7 @@ class Layout extends React.Component {
                             <meta name="description" content={`${data.siteConfig.title} `} />
                             <link rel="shortcut icon" href={icon} />
                             <noscript>
-                                为了更好的浏览体验，请不要在本页面禁用 Javascript 🙂
+                                為了更好的瀏覽體驗，請不要在本頁面禁用 Javascript 🙂
                     </noscript>
                         </Helmet>
                         {/* {

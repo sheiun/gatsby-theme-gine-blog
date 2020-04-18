@@ -54,7 +54,7 @@ function SimpleList(props) {
                         <ListItemIcon>
                             <HomeIcon color={'primary'} />
                         </ListItemIcon>
-                        <ListItemText primary="主页" />
+                        <ListItemText primary="首頁" />
                     </ListItem>
                 </MyLink>
 
@@ -63,7 +63,7 @@ function SimpleList(props) {
                         <ListItemIcon>
                             <TagIcon style={{ color: '#673ab7' }} />
                         </ListItemIcon>
-                        <ListItemText primary="标签" />
+                        <ListItemText primary="標籤" />
                     </ListItem>
                 </MyLink>
 
@@ -72,7 +72,7 @@ function SimpleList(props) {
                         <ListItemIcon>
                             <ArchiveIcon style={{ color: '#f44336' }} />
                         </ListItemIcon>
-                        <ListItemText primary="归档" />
+                        <ListItemText primary="歷史" />
                     </ListItem>
                 </MyLink>
 
@@ -81,7 +81,7 @@ function SimpleList(props) {
                         <ListItemIcon>
                             <AboutIcon style={{ color: '#ffc107' }} />
                         </ListItemIcon>
-                        <ListItemText primary="关于" />
+                        <ListItemText primary="關於" />
                     </ListItem>
                 </MyLink>
                 {
@@ -90,7 +90,7 @@ function SimpleList(props) {
                             <ListItemIcon>
                                 <MomentIcon style={{ color: '#4a148c' }} />
                             </ListItemIcon>
-                            <ListItemText primary="动态" />
+                            <ListItemText primary="動態" />
                         </ListItem>
                     </MyLink>
                 }
@@ -100,7 +100,7 @@ function SimpleList(props) {
                             <ListItemIcon>
                                 <BookListIcon style={{ color: '#607d8b' }} />
                             </ListItemIcon>
-                            <ListItemText primary="书单" />
+                            <ListItemText primary="書單" />
                         </ListItem>
                     </MyLink>
                 }
@@ -141,7 +141,7 @@ function SimpleList(props) {
                         <ListItemIcon>
                             <FriendIcon style={{ color: '#e91e63' }} />
                         </ListItemIcon>
-                        <ListItemText primary="友链" />
+                        <ListItemText primary="連結" />
                     </ListItem>
                 </MyLink>
 
