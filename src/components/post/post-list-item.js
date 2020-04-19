@@ -43,11 +43,11 @@ function ImgMediaCard(props) {
             <CardActionArea component={MyLink}>
                 <CardMedia
                     component="img"
-                    alt="Contemplative Reptile"
+                    alt=""
                     className={classes.media}
                     height="140"
                     image={coverImageUrl}
-                    title="Contemplative Reptile"
+                    title=""
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">

@@ -45,7 +45,7 @@ function SimpleList(props) {
                 <CardMedia
                     className={classes.media}
                     image={avatar}
-                    title="Contemplative Reptile"
+                    title="雪煾"
                 />
             </MyLink>
             <List component="nav">
