@@ -18,7 +18,7 @@ function Moments(props) {
             url={sourceConfig.table}
             itemComponent={moment}
             sortFunc={(a, b) => dayjs(b.created_time) - dayjs(a.created_time)}
-            title="动态"
+            title="動態"
         /> : <div>
                 Can't find moments source table, check source config!
             </div>
