@@ -72,7 +72,7 @@ function SimpleList(props) {
                         <ListItemIcon>
                             <ArchiveIcon style={{ color: '#f44336' }} />
                         </ListItemIcon>
-                        <ListItemText primary="歷史" />
+                        <ListItemText primary="紀錄" />
                     </ListItem>
                 </MyLink>
 
