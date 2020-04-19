@@ -111,7 +111,7 @@ class Layout extends React.Component {
                 render={data => (
                     <div>
                         <Helmet defaultTitle={`${data.siteConfig.title}${title ? ` - ${title}` : ""}`}>
-                            <html lang="zh-cmn-Hans" />
+                            <html lang="zh-Hant" />
                             <meta name="description" content={`${data.siteConfig.title} `} />
                             <link rel="shortcut icon" href={icon} />
                             <noscript>
