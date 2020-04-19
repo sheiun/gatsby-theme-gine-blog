@@ -3,7 +3,6 @@ import Bottom from './bottom'
 import '../../index.css'
 import { withStyles } from '@material-ui/core/styles'
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer'
-import 'typeface-roboto'
 import NavList from './nav-list'
 import { Helmet } from "react-helmet"
 import IconButton from '@material-ui/core/IconButton'
