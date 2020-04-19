@@ -108,13 +108,13 @@ function MediaControlCard(props) {
                     aria-labelledby="alert-dialog-title"
                     aria-describedby="alert-dialog-description"
                 >
-                    <DialogTitle id={`book-${slug}`}>{`关于《${name}》的评论`}</DialogTitle>
+                    <DialogTitle id={`book-${slug}`}>{`關於《${name}》的評論`}</DialogTitle>
                     <DialogContent>
                         <DialogContentText id="alert-dialog-description">
                             {`${comment}`}
                         </DialogContentText>
                         {
-                            postsInfo && Boolean(postsInfo.length) && <h3>相关文章</h3>
+                            postsInfo && Boolean(postsInfo.length) && <h3>相關文章</h3>
                         }
                         {
                             postsInfo && postsInfo.map(item => <Link to={`posts/${item.slug}`}><div>{item.name}</div></Link>)
