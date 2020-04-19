@@ -38,8 +38,8 @@ export default (props) => (
     <div style={{ margin: `1em 0 auto auto`, textAlign: 'center', paddingBottom: '1em' }}>
         {props.siteConfig.aphorismsOpen && <Aphorisms data={props.allAphorisms} />}
         <Typography variant="subtitle1">
-            Build with <ULink href="https://www.gatsbyjs.org" text="gatsby" />, @{' '}
-        <ULink href="https://reactjs.org" text="react" />, @{' '}
+            Build with <ULink href="https://www.gatsbyjs.org" text="gatsby" />, {' '}
+        <ULink href="https://reactjs.org" text="react" />, {' '}
         <ULink href="https://material-ui.com/"
                 text="material-ui" /> and <LoveIcon
                 color='primary'
