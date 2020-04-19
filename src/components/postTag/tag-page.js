@@ -27,7 +27,7 @@ class Index extends React.Component {
             <Layout>
                 <div className={classes.index}>
                     <div style={{ display: 'flex' }}>
-                        <span>共有{data.allPosts.totalCount}篇关于 </span> <ColorfulTag tag={tag} /> <span>的文章</span>
+                        <span>共有 {data.allPosts.totalCount} 篇關於 </span> <ColorfulTag tag={tag} /> <span>的文章</span>
                     </div>
 
                     {data.allPosts.edges.map(({ node }) => (
